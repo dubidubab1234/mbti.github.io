@@ -23,6 +23,7 @@ const p = document.getElementById("p");
 
 const end = document.getElementById("end");
 const mbtiResult = document.getElementById("result");
+const retry = document.getElementById("retry");
 
 start.addEventListener("click", () => {
   home.style.display = "none";
@@ -87,4 +88,10 @@ p.addEventListener("click", () => {
   mbti = result.join("");
   mbtiResult.innerHTML = mbti;
   console.log(result);
+});
+
+retry.addEventListener("click", () => {
+  end.style.display = "none";
+  home.style.display = "flex";
+  result = [];
 });
