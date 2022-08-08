@@ -1,0 +1,45 @@
+body {
+  font-family: "Do Hyeon", sans-serif;
+}
+
+progress::-webkit-progress-value {
+  transition: 5s width;
+}
+
+#home {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+#ei {
+  display: none;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+#sn {
+  display: none;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+#ft {
+  display: none;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+#jp {
+  display: none;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+#end {
+  display: none;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}

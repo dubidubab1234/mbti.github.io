@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>10초 MBTI</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/daisyui@2.22.0/dist/full.css"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Do+Hyeon&display=swap"
+      rel="stylesheet"
+    />
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body>
+    <div id="home">
+      <div class="card w-96 bg-base-100 shadow-xl">
+        <figure class="px-10 pt-10">
+          <img
+            src="https://t3.ftcdn.net/jpg/03/34/54/82/360_F_334548273_nz3SZKh1BlQs97tsMHKJ8AqR0YzkllnO.jpg"
+            class="rounded-xl"
+          />
+        </figure>
+        <div class="card-body items-center text-center">
+          <h2 class="card-title">10초 MBTI</h2>
+          <p>간단한 MBTI 테스트</p>
+          <div class="card-actions">
+            <button class="btn gap-2" id="start">start</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div id="ei">
+      <div class="card w-96 bg-base-100 shadow-xl">
+        <div style="text-align: center;">
+          <progress
+          value="25"
+          max="100"
+          class="progress progress-primary w-56"
+        ></progress>
+        <figure class="px-10 pt-10">
+          <img
+          src="https://us.123rf.com/450wm/simpleline/simpleline2006/simpleline200600381/150282690-.jpg?ver=6"
+          class="rounded-xl"
+          />
+        </figure>
+        </div>
+        <div class="card-body items-center text-center">
+          <h2 class="card-title">새로운 모임에서 새로운 사람들과 <br> 3시간 이상 있는 것이 힘들지 않다</h2>
+          <button class="btn gap-2" id="e">그렇다</button>
+          <button class="btn gap-2" id="i">아니다</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div id="sn">
+      <div class="card w-96 bg-base-100 shadow-xl">
+        <div style="text-align: center;">
+          <progress
+          value="50"
+          max="100"
+          class="progress progress-primary w-56"
+        ></progress>
+        <figure class="px-10 pt-10">
+          <img
+          src="https://img.freepik.com/premium-vector/continuous-line-thinking-woman-looking-away-illustration_274619-1868.jpg?w=2000"
+          class="rounded-xl"
+          />
+        </figure>
+        </div>
+        <div class="card-body items-center text-center">
+          <h2 class="card-title">나는 공상이나 몽상을 좋아한다</h2>
+          <button class="btn gap-2" id="n">그렇다</button>
+          <button class="btn gap-2" id="s">아니다</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div id="ft">
+      <div class="card w-96 bg-base-100 shadow-xl">
+        <div style="text-align: center;">
+          <progress
+          value="75"
+          max="100"
+          class="progress progress-primary w-56"
+        ></progress>
+        <figure class="px-10 pt-10">
+          <img
+          src="https://i.pinimg.com/736x/fa/7e/55/fa7e555e1b9b5fb950551d68304dcaa9.jpg"
+          class="rounded-xl"
+          />
+        </figure>
+        </div>
+        <div class="card-body items-center text-center">
+          <h2 class="card-title">나는 공감을 잘 한다</h2>
+          <button class="btn gap-2" id="f">그렇다</button>
+          <button class="btn gap-2" id="t">아니다</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div id="jp">
+      <div class="card w-96 bg-base-100 shadow-xl">
+        <div style="text-align: center;">
+          <progress
+          value="100"
+          max="100"
+          class="progress progress-primary w-56"
+        ></progress>
+        <figure class="px-10 pt-10">
+          <img
+          src="https://static.vecteezy.com/system/resources/previews/003/592/891/non_2x/single-continuous-single-line-drawing-of-young-woman-urban-commuter-worker-running-in-rush-at-city-road-to-get-to-the-office-on-time-employee-in-hurry-concept-one-line-draw-design-illustration-vector.jpg"
+          class="rounded-xl"
+          />
+        </figure>
+        </div>
+        <div class="card-body items-center text-center">
+          <h2 class="card-title">약속 시간을 지키는 것이 힘들지 않다</h2>
+          <button class="btn gap-2" id="j">그렇다</button>
+          <button class="btn gap-2" id="p">아니다</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div id="end">
+      <div class="card w-96 bg-base-100 shadow-xl">
+        <div style="text-align: center;">
+        <figure class="px-10 pt-10">
+          <img
+          src="https://t3.ftcdn.net/jpg/03/45/58/22/360_F_345582269_PbwleyQfMQCrFsQogf6d8HGayqnJaXup.jpg"
+          class="rounded-xl"
+          />
+        </figure>
+        </div>
+        <div class="card-body items-center text-center">
+          <h2 class="card-title" id="result" style="font-size: 50px;"></h2>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="./index.js"></script>
+  </body>
+</html>
